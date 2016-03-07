@@ -19,6 +19,7 @@
       <title>S4RiS StanD (S4RiS Standings Dancing)</title>
    </head>
    <body>
+   <div id="mask"></div>
    <script>
          var L18n = new L18n();
    </script>
@@ -58,6 +59,7 @@
                <div>
                   <textarea rows="10" cols="50"></textarea>
                </div>
+                <input style="display: none" type="file" id="input">
                <script>
                   document.write("<button type=\"submit\" class=\"download-button\">");
                   document.write(L18n.autoTranslate("load"));

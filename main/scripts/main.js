@@ -44,7 +44,7 @@ function Run(contestant, problem, time, success) {
  */
 function Contestant(name) {
     this.name = name;
-    this.runsList = new Array();
+    this.runsList = [];
     /**
      Actual penalty.
      */
@@ -62,11 +62,11 @@ function Contestant(name) {
 
     this.addRun = function (run) {
         this.runsList[this.runsList.length] = run;
-    }
+    };
 
     this.getAllRuns = function () {
         return runsList;
-    }
+    };
 
     /**
      Comparator for 2 contestant by ACM ICPC rule.
@@ -81,7 +81,7 @@ function Contestant(name) {
         } else {
             return second.totalSolved - this.totalSolved;
         }
-    }
+    };
 
     this.toString = function () {
         return name;
@@ -121,7 +121,7 @@ function Contest(json, defrostingComparatorName) {
             contestantsHash['' + this.inputLog.contestants[idx] + ''] = new Contestant(this.inputLog.contestants[idx]);
         }
         return contestantsHash;
-    }
+    };
 
     this.getProblems = function () {
         var problemsHash = {};
@@ -129,10 +129,10 @@ function Contest(json, defrostingComparatorName) {
             problemsHash['' + this.inputLog.problemLetters[idx] + ''] = new Problem(this.inputLog.problemLetters[idx]);
         }
         return problemsHash;
-    }
+    };
 
     this.getRuns = function (cHash, pHash) {
-        var runsList = new Array();
+        var runsList = [];
         for (var idx in this.inputLog.runs) {
             var contestant = cHash['' + this.inputLog.runs[idx].contestant + ''];
             var problem = pHash['' + this.inputLog.runs[idx].problemLetter + ''];
@@ -142,7 +142,7 @@ function Contest(json, defrostingComparatorName) {
             cHash['' + contestant.name + ''].addRun(runsList[idx]);
         }
         return runsList;
-    }
+    };
 
     this.createFrozenStandings = function () {
         var cHash = this.getContestants();
@@ -188,14 +188,14 @@ function Standings(cHash, limit, defrostingComparatorName) {
      */
     this.ProblemDefrostingComparatorByLastSubmitTime = function (first, second) {
         return first.run.lastSubmitTime - second.run.lastSubmitTime;
-    }
+    };
 
     /*
      * Comparator of contestant problems defrosting order by alphabetic problem name.
      */
     this.ProblemDefrostingComparatorByProblemName = function (first, second) {
         return first.problem.localeCompare(second.problem);
-    }
+    };
 
     if (defrostingComparatorName == 'alphabeticProblemOrder') {
         this.ProblemDefrostingComparator = this.ProblemDefrostingComparatorByProblemName;
@@ -214,9 +214,9 @@ function Standings(cHash, limit, defrostingComparatorName) {
         } else {
             return second.totalSolved - first.totalSolved;
         }
-    }
+    };
 
-    this.rankList = new Array();
+    this.rankList = [];
     for (var name in cHash) {
         this.rankList[this.rankList.length] = cHash[name];
     }
@@ -224,15 +224,15 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.get = function (idx) {
         return this.rankList[idx];
-    }
+    };
 
     this.set = function (idx, contestant) {
         this.rankList[idx] = contestant;
-    }
+    };
 
     this.size = function () {
         return this.rankList.length;
-    }
+    };
 
     /**
      Current row in standings
@@ -248,11 +248,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurRow = function (row) {
         curRow = row;
-    }
+    };
 
     this.getCurRow = function () {
         return curRow;
-    }
+    };
 
     /**
      Current row at frame.
@@ -261,11 +261,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurFrameRow = function (row) {
         curFrameRow = row;
-    }
+    };
 
     this.getCurFrameRow = function () {
         return curFrameRow;
-    }
+    };
 
     /**
      Current top row at frame.
@@ -274,11 +274,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurTopRow = function (row) {
         curTopRow = row;
-    }
+    };
 
     this.getCurTopRow = function () {
         return curTopRow;
-    }
+    };
 
     /**
      Update places in standings.
@@ -300,7 +300,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
             setContestantPlace(i, this.get(i).place);
         }
-    }
+    };
 
     /**
      Moves row up.
@@ -330,7 +330,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 moveRow(save - delta, -1);
             }
         }
-    }
+    };
 
     this.flashActive = false;
 
@@ -372,7 +372,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 this.curRunInfo.defrost = true;
             }
         } else {
-            var tempProblemList = new Array();
+            var tempProblemList = [];
             for (var pName in contestant.runInfoHash) {
                 tempProblemList.push({run: contestant.runInfoHash[pName], problem: pName});
             }
@@ -390,7 +390,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                             elem.animate({backgroundColor: '#FFFFFF'}, 400);
                             elem.animate({backgroundColor: '#FF9D00'}, 400);
                         }
-                    }
+                    };
                     this.timer = setInterval(object.func, 1000);
                     return;
                 }
@@ -413,7 +413,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 curFrameRow--;
             }
         }
-    }
+    };
 
     /**
      Process "Fast Next Step".
@@ -424,7 +424,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
         var contestant = this.get(curRow);
         setCurrentRow(curRow);
         var wasUp = false;
-        var tempProblemList = new Array();
+        var tempProblemList = [];
         for (var pName in contestant.runInfoHash) {
             tempProblemList.push({run: contestant.runInfoHash[pName], problem: pName});
         }
@@ -473,7 +473,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 curFrameRow--;
             }
         }
-    }
+    };
 
     /**
      Move current row down and frameRow, if needed.
@@ -508,8 +508,7 @@ function JSONLogPanelControl() {
 function createTemplateRow(idx) {
     $('#standings-table').append('<div class="element" id="' + idx + '" style=" z-index:0"><table class="contestant-info"><tr><td><div class="contestant"></div></td></tr><tr style="top 50px;"><td><table class="problems-list"><tr><td class="info"><div class="info-caption">' + L18n.autoTranslate("place") + '</div><div class="info-text" id="place">0</div></td><td class="problem"><div class="problem-caption">&nbsp;</div><div class="problem-result" id="no-submitions">.</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("solvedProblems") + '</div><div class="info-text" id="totalSolved">0</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("penalty") + '</div><div class="info-text" id="penalty">0</div></td></tr></table></td></tr></table></div>');
     $
-};
-
+}
 /**
  Set problem names.
  Problem ID is its name.
@@ -704,8 +703,7 @@ function setAdaptiveRow(rowHeight) {
 }
 
 $('document').ready(function () {
-    $('#inner #show-log').click(JSONLogPanelControl);
-    $('.download-button').click(function () {
+    function load(data){
         try {
             var selectedFormat = $('.select-log').val();
             frameSize = $('.select-frameSize').val();
@@ -717,17 +715,17 @@ $('document').ready(function () {
             var defrostingComparatorName = $('.select-defrosting-order').val();
             var contest;
             if (selectedFormat == 'stand') {
-                var json = eval('(' + $('textarea').val() + ')');
+                var json = eval('(' + data + ')');
                 contest = new Contest(json, defrostingComparatorName);
             } else if (selectedFormat == 'ejudge') {
-                var Log = new EJudgeConvertor($('textarea').val());
+                var Log = new EJudgeConvertor(data);
                 contest = new Contest(Log.convert(), defrostingComparatorName);
             }
 
             var standings = contest.createFrozenStandings();
             var problemsHash = contest.getProblems();
             var limit = contest.getTimeBeforeFreeze();
-            var problemsList = new Array();
+            var problemsList = [];
             setContestCaption(contest.getContestName());
             for (var letter in problemsHash) {
                 problemsList[problemsList.length] = problemsHash[letter].name;
@@ -764,5 +762,52 @@ $('document').ready(function () {
         } catch (Exception) {
             alert(L18n.autoTranslate("loadError"))
         }
+    }
+
+    $('#inner').find('#show-log').click(JSONLogPanelControl);
+    $('.download-button').click(function () {
+        load($('textarea').val());
     });
+
+    function dragenter(e) {
+        console.log("enter");
+        jQuery('#mask').show()
+        e.stopPropagation();
+        e.preventDefault();
+    }
+
+    function dragover(e) {
+        console.log("over");
+        e.stopPropagation();
+        e.preventDefault();
+    }
+
+    function drop(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        jQuery('#mask').hide();
+        console.log("drop");
+        var dt = e.dataTransfer;
+        var files = dt.files;
+        console.log("!!!");
+        handleFiles(files);
+    }
+
+    function handleFiles(files) {
+        for (var i = 0, numFiles = files.length; i < 2; i++) {
+            var reader = new FileReader();
+            var file = files[i];
+            reader.onload = function (event) {
+                var data = event.target.result;
+                load(data);
+            };
+            reader.readAsText(file);
+        }
+    }
+
+    var dropbox;
+    dropbox = document.body;
+    dropbox.addEventListener("dragenter", dragenter, false);
+    dropbox.addEventListener("dragover", dragover, false);
+    dropbox.addEventListener("drop", drop, false);
 });

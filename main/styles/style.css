@@ -364,3 +364,14 @@ width: 116px;
 #selected-row{
    background-color:#975AD5;
 }
+
+#mask {
+   background-color:rgba(0,0,0,.3);
+   height:100%;
+   position:fixed;
+   width:100%;
+   top:0;
+   left:0;
+   z-index: 300;
+   display: none;
+}
