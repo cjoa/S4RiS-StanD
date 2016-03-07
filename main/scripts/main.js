@@ -26,7 +26,7 @@ function Problem(letterName) {
 }
 
 /**
- Contestant submition.
+ Contestant submission.
  */
 function Run(contestant, problem, time, success) {
     this.contestant = contestant;
@@ -174,8 +174,7 @@ function Contest(json, defrostingComparatorName) {
                 }
             }
         }
-        var standings = new Standings(cHash, this.getTimeBeforeFreeze(), this.defrostingComparatorName);
-        return standings;
+        return new Standings(cHash, this.getTimeBeforeFreeze(), this.defrostingComparatorName);
     }
 }
 
@@ -770,14 +769,12 @@ $('document').ready(function () {
     });
 
     function dragenter(e) {
-        console.log("enter");
-        jQuery('#mask').show()
+        jQuery('#mask').show();
         e.stopPropagation();
         e.preventDefault();
     }
 
     function dragover(e) {
-        console.log("over");
         e.stopPropagation();
         e.preventDefault();
     }
@@ -786,10 +783,8 @@ $('document').ready(function () {
         e.stopPropagation();
         e.preventDefault();
         jQuery('#mask').hide();
-        console.log("drop");
         var dt = e.dataTransfer;
         var files = dt.files;
-        console.log("!!!");
         handleFiles(files);
     }
 
