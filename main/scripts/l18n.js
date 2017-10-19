@@ -47,7 +47,7 @@ function L18n() {
             "chooseDefrostingOrder": "Select the order of problems defrosting for contestant",
             "alphabeticProblemOrder": "By alphabetic order of problem name",
             "increasingLastSubmitTime": "By increasing contestant last submit time for problem",
-            "insertLog": "Insert contest log",
+            "insertLog": "Insert contest logs",
             "load": "Load",
             "loadError": "Parse log error. Check the contents of the log and the chosen format",
             "wrongInputCombination": "Can not display a table of the number of rows and number of lines, up \"unfreezes\"",

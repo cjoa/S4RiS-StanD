@@ -1,0 +1,39 @@
+<runlog contest_id="250" duration="18000" start_time="2011/10/23 12:10:00" stop_time="2011/10/23 17:10:00" current_time="2012/04/10 19:35:42" sched_start_time="2011/10/23 12:10:00" fog_time="3600" unfog_time="10800">
+<name>
+Test Multiple Sites
+</name>
+<users>
+<user id="49990" name="Team 10"/>
+<user id="49991" name="Team 11"/>
+<user id="49992" name="Team 12"/>
+<user id="49993" name="Team 13"/>
+<user id="49994" name="Team 14"/>
+<user id="49995" name="Team 15"/>
+<user id="49996" name="Team 16"/>
+<user id="49997" name="Team 17"/>
+<user id="49998" name="Team 18"/>
+<user id="49999" name="Team 19"/>
+</users>
+<problems>
+<problem id="1" short_name="A" long_name="Age of Retirement"/>
+<problem id="2" short_name="B" long_name="Bridges"/>
+<problem id="3" short_name="C" long_name="Crisis"/>
+<problem id="4" short_name="D" long_name="Dining Room"/>
+<problem id="5" short_name="E" long_name="Exhibition Hall"/>
+<problem id="6" short_name="F" long_name="File sharing"/>
+<problem id="7" short_name="G" long_name="tourist"/>
+<problem id="8" short_name="H" long_name="Heroes of Money and Magic"/>
+<problem id="9" short_name="I" long_name="I, V, X, L, C, D, M problem"/>
+<problem id="10" short_name="J" long_name="Jams"/>
+<problem id="11" short_name="K" long_name="King's Palace Garden"/>
+<problem id="12" short_name="L" long_name="Lamps of the Mind"/>
+</problems>
+<languages>
+<language id="2" short_name="gcc" long_name="GNU C 4.3.3"/>
+<language id="3" short_name="g++" long_name="GNU C++ 4.3.3"/>
+<language id="18" short_name="javac" long_name="Java JDK 1.6.0_20"/>
+</languages>
+<runs>
+<run run_id="1819" time="17899" status="WA" user_id="49999" prob_id="10" lang_id="3" test="1" nsec="922967000"/>
+</runs>
+</runlog>

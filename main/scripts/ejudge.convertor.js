@@ -15,6 +15,8 @@ function EJudgeConvertor(xml){
       json.contestName = json.name;
       json.freezeTimeMinutesFromStart = (parseInt(json.duration)-parseInt(json.fog_time))/60;
       json.problemLetters = new Array();
+      if (json.problems.problem.constructor !== Array)
+         json.problems.problem = [ json.problems.problem ];
       var nProblems = json.problems.problem.length;
       var problemHash={};
       for (var i = 0; i < nProblems; i++){
@@ -26,21 +28,26 @@ function EJudgeConvertor(xml){
       delete json.stop_time;
       delete json.unfog_time;
       json.contestants = new Array();
+      if (json.users.user.constructor !== Array)
+         json.users.user = [ json.users.user ];
       var nUsers = json.users.user.length;
       var contestantHash={};
       for (var i = 0; i < nUsers; i++){
          json.contestants[i] = json.users.user[i].name;
          contestantHash[''+json.users.user[i].id+''] = json.users.user[i].name;
       }
+      if (json.runs.run.constructor !== Array)
+         json.runs.run = [ json.runs.run ];
       var nRuns = json.runs.run.length;
       json.tempRuns = new Array();
-      for (var i = 0; i < nRuns; i++){
+      for (var i = 0, j = 0; i < nRuns; i++){
          if (json.runs.run[i].status!=='CE'){
-            json.tempRuns[i] = new Object();
-            json.tempRuns[i].contestant = contestantHash[''+json.runs.run[i].user_id+''];
-            json.tempRuns[i].problemLetter = problemHash[''+json.runs.run[i].prob_id+''];
-            json.tempRuns[i].timeMinutesFromStart =  ~~((parseInt(json.runs.run[i].time))/60);
-            json.tempRuns[i].success = json.runs.run[i].status==='OK';
+            json.tempRuns[j] = new Object();
+            json.tempRuns[j].contestant = contestantHash[''+json.runs.run[i].user_id+''];
+            json.tempRuns[j].problemLetter = problemHash[''+json.runs.run[i].prob_id+''];
+            json.tempRuns[j].timeMinutesFromStart =  ~~((parseInt(json.runs.run[i].time))/60);
+            json.tempRuns[j].success = json.runs.run[i].status==='OK';
+            j++;
          }
       }
       json.runs = json.tempRuns;

@@ -1,0 +1,1315 @@
+{
+    "freezeTimeMinutesFromStart": 240, 
+    "contestName": "The 2015 Caribbean Finals - Real Contest", 
+    "runs": [
+        {
+            "contestant": "Minions", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 4, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 4, 
+            "success": true
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 5, 
+            "success": true
+        }, 
+        {
+            "contestant": "WrongAnswer", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 5, 
+            "success": true
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 5, 
+            "success": true
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 5, 
+            "success": false
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 5, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 5, 
+            "success": false
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 6, 
+            "success": true
+        }, 
+        {
+            "contestant": "SPETSNAZ", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 6, 
+            "success": true
+        }, 
+        {
+            "contestant": ";-- DROP DATABASE;--", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 6, 
+            "success": true
+        }, 
+        {
+            "contestant": "ULTPLUS", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 6, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 7, 
+            "success": true
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 7, 
+            "success": true
+        }, 
+        {
+            "contestant": "Math.UH", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 8, 
+            "success": true
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 8, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 8, 
+            "success": true
+        }, 
+        {
+            "contestant": "Kernel UC", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 8, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 8, 
+            "success": true
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 9, 
+            "success": true
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 9, 
+            "success": true
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 9, 
+            "success": true
+        }, 
+        {
+            "contestant": "judging", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 9, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 10, 
+            "success": true
+        }, 
+        {
+            "contestant": "Kernel UC", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 11, 
+            "success": true
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 11, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 12, 
+            "success": true
+        }, 
+        {
+            "contestant": "OnePlusTwo", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 12, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 13, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 13, 
+            "success": true
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 14, 
+            "success": true
+        }, 
+        {
+            "contestant": "OnePlusTwo", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 14, 
+            "success": true
+        }, 
+        {
+            "contestant": "Name NOT Found", 
+            "problemLetter": "I", 
+            "timeMinutesFromStart": 15, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 23, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 24, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 28, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 30, 
+            "success": true
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 31, 
+            "success": true
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 31, 
+            "success": true
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 35, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 37, 
+            "success": true
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 38, 
+            "success": true
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 44, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 44, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 46, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 47, 
+            "success": true
+        }, 
+        {
+            "contestant": "judging", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 47, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 47, 
+            "success": true
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 50, 
+            "success": true
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 51, 
+            "success": true
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 52, 
+            "success": false
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 53, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 53, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 53, 
+            "success": false
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 53, 
+            "success": false
+        }, 
+        {
+            "contestant": "WrongAnswer", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 55, 
+            "success": true
+        }, 
+        {
+            "contestant": "Math.UH", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 57, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 59, 
+            "success": false
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 60, 
+            "success": false
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 61, 
+            "success": false
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 62, 
+            "success": false
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 63, 
+            "success": true
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 63, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 66, 
+            "success": true
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 67, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 68, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 68, 
+            "success": false
+        }, 
+        {
+            "contestant": "Name NOT Found", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 71, 
+            "success": true
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "B", 
+            "timeMinutesFromStart": 72, 
+            "success": false
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 73, 
+            "success": true
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 73, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 74, 
+            "success": true
+        }, 
+        {
+            "contestant": "SPETSNAZ", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 74, 
+            "success": true
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 74, 
+            "success": true
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 77, 
+            "success": false
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "B", 
+            "timeMinutesFromStart": 77, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 79, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 81, 
+            "success": true
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 82, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 82, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 82, 
+            "success": true
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 83, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 85, 
+            "success": false
+        }, 
+        {
+            "contestant": "Kernel UC", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 85, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 91, 
+            "success": false
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 91, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 91, 
+            "success": false
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 91, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 95, 
+            "success": true
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 99, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 100, 
+            "success": false
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 102, 
+            "success": true
+        }, 
+        {
+            "contestant": "ULTPLUS", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 103, 
+            "success": false
+        }, 
+        {
+            "contestant": "ULTPLUS", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 105, 
+            "success": false
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 106, 
+            "success": true
+        }, 
+        {
+            "contestant": "Kernel UC", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 108, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 108, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 108, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 108, 
+            "success": true
+        }, 
+        {
+            "contestant": "OnePlusTwo", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 112, 
+            "success": false
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 112, 
+            "success": true
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 112, 
+            "success": true
+        }, 
+        {
+            "contestant": "ULTPLUS", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 119, 
+            "success": false
+        }, 
+        {
+            "contestant": ";-- DROP DATABASE;--", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 120, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 123, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 123, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 124, 
+            "success": false
+        }, 
+        {
+            "contestant": "WrongAnswer", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 126, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 127, 
+            "success": true
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 129, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 129, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 129, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 130, 
+            "success": false
+        }, 
+        {
+            "contestant": "ULTPLUS", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 131, 
+            "success": true
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 132, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 132, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 136, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 137, 
+            "success": false
+        }, 
+        {
+            "contestant": "WrongAnswer", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 139, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 141, 
+            "success": false
+        }, 
+        {
+            "contestant": "judging", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 142, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 142, 
+            "success": true
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 142, 
+            "success": false
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 144, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 146, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 151, 
+            "success": false
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 154, 
+            "success": false
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 154, 
+            "success": false
+        }, 
+        {
+            "contestant": "WrongAnswer", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 156, 
+            "success": true
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 159, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 162, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 163, 
+            "success": true
+        }, 
+        {
+            "contestant": "judging", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 165, 
+            "success": true
+        }, 
+        {
+            "contestant": "OnePlusTwo", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 166, 
+            "success": false
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "K", 
+            "timeMinutesFromStart": 168, 
+            "success": false
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 169, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 171, 
+            "success": false
+        }, 
+        {
+            "contestant": "NuclearForces", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 171, 
+            "success": true
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 174, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 176, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 177, 
+            "success": true
+        }, 
+        {
+            "contestant": "Accepted", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 178, 
+            "success": false
+        }, 
+        {
+            "contestant": "Limitless", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 178, 
+            "success": false
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 182, 
+            "success": false
+        }, 
+        {
+            "contestant": ";-- DROP DATABASE;--", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 183, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "K", 
+            "timeMinutesFromStart": 187, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 191, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 191, 
+            "success": false
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 195, 
+            "success": false
+        }, 
+        {
+            "contestant": "OnePlusTwo", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 198, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 202, 
+            "success": true
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 205, 
+            "success": false
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 206, 
+            "success": false
+        }, 
+        {
+            "contestant": "A-SAO", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 209, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 211, 
+            "success": false
+        }, 
+        {
+            "contestant": "Math.UH", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 212, 
+            "success": true
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 214, 
+            "success": false
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 215, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 219, 
+            "success": false
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 221, 
+            "success": false
+        }, 
+        {
+            "contestant": "KFP", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 222, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 223, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 223, 
+            "success": true
+        }, 
+        {
+            "contestant": "Kernel UC", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 225, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 226, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 227, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 231, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 234, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 236, 
+            "success": false
+        }, 
+        {
+            "contestant": ";-- DROP DATABASE;--", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 237, 
+            "success": false
+        }, 
+        {
+            "contestant": "Conquer &amp; Divide", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 238, 
+            "success": true
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 241, 
+            "success": false
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 241, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "E", 
+            "timeMinutesFromStart": 241, 
+            "success": true
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 245, 
+            "success": true
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 247, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 248, 
+            "success": false
+        }, 
+        {
+            "contestant": "C\u00f3digo Verde", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 249, 
+            "success": false
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 251, 
+            "success": true
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 254, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 254, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "K", 
+            "timeMinutesFromStart": 259, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 260, 
+            "success": false
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 262, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 265, 
+            "success": true
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 266, 
+            "success": false
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 271, 
+            "success": true
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 274, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 278, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "D", 
+            "timeMinutesFromStart": 278, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH++", 
+            "problemLetter": "K", 
+            "timeMinutesFromStart": 279, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 279, 
+            "success": false
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 280, 
+            "success": false
+        }, 
+        {
+            "contestant": "SmartWare", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 281, 
+            "success": false
+        }, 
+        {
+            "contestant": ";-- DROP DATABASE;--", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 282, 
+            "success": true
+        }, 
+        {
+            "contestant": "UH_REFRESH", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 283, 
+            "success": true
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 284, 
+            "success": false
+        }, 
+        {
+            "contestant": "Math.UH", 
+            "problemLetter": "K", 
+            "timeMinutesFromStart": 284, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "C", 
+            "timeMinutesFromStart": 285, 
+            "success": false
+        }, 
+        {
+            "contestant": "Uho-01", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 286, 
+            "success": false
+        }, 
+        {
+            "contestant": "CyberWorld", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 287, 
+            "success": false
+        }, 
+        {
+            "contestant": "Minions", 
+            "problemLetter": "F", 
+            "timeMinutesFromStart": 290, 
+            "success": false
+        }, 
+        {
+            "contestant": "Los Trolles", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 292, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 292, 
+            "success": false
+        }, 
+        {
+            "contestant": "root@uci.cu", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 294, 
+            "success": false
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 295, 
+            "success": false
+        }, 
+        {
+            "contestant": "FisNuc", 
+            "problemLetter": "A", 
+            "timeMinutesFromStart": 296, 
+            "success": false
+        }, 
+        {
+            "contestant": "UH Class Zero", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 297, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 297, 
+            "success": false
+        }, 
+        {
+            "contestant": "FeelMyStyle", 
+            "problemLetter": "H", 
+            "timeMinutesFromStart": 299, 
+            "success": false
+        }, 
+        {
+            "contestant": "sUrPRise", 
+            "problemLetter": "G", 
+            "timeMinutesFromStart": 299, 
+            "success": false
+        }
+    ], 
+    "problemLetters": [
+        "F", 
+        "G", 
+        "H", 
+        "I", 
+        "J", 
+        "K", 
+        "A", 
+        "B", 
+        "C", 
+        "D", 
+        "E"
+    ], 
+    "contestants": [
+        "Uho-01", 
+        "Minions", 
+        "Conquer &amp; Divide", 
+        "Math.UH", 
+        "A-SAO", 
+        "judging", 
+        "Name NOT Found", 
+        "sUrPRise", 
+        "FeelMyStyle", 
+        "CyberWorld", 
+        "C\u00f3digo Verde", 
+        "OnePlusTwo", 
+        "Los Trolles", 
+        "SmartWare", 
+        "Kernel UC", 
+        "root@uci.cu", 
+        "WrongAnswer", 
+        "UH Class Zero", 
+        "KFP", 
+        "Limitless", 
+        ";-- DROP DATABASE;--", 
+        "SPETSNAZ", 
+        "NuclearForces", 
+        "UH_REFRESH", 
+        "ULTPLUS", 
+        "FisNuc", 
+        "Accepted", 
+        "UH++"
+    ]
+}

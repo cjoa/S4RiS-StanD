@@ -703,6 +703,30 @@ function setAdaptiveRow(rowHeight) {
     $('.problem-result').css('font-size', problemResultFontHeight + 'em').width(problemResultWidth);
 }
 
+
+/**
+ Merge JSON results from two sites
+ */
+function mergeJSON(json1, json2) {
+   var res = {
+      freezeTimeMinutesFromStart: json1.freezeTimeMinutesFromStart,
+      contestName: json1.contestName,
+      runs: json1.runs.concat(json2.runs),
+      problemLetters: json1.problemLetters,
+      contestants: json1.contestants.concat(json2.contestants)
+   };
+   for (var i = 0; i < res.runs.length; i++) {
+      res.runs[i].pos = i;
+   }
+   res.runs.sort(function(a, b){
+      var diff = a.timeMinutesFromStart - b.timeMinutesFromStart;
+      return diff != 0 ? diff : (a.pos - b.pos);
+   });
+   //return JSON.stringify(res, true, 4);
+   return res;
+}
+
+
 $('document').ready(function () {
     $('#inner #show-log').click(JSONLogPanelControl);
     $('.download-button').click(function () {
@@ -716,12 +740,34 @@ $('document').ready(function () {
             }
             var defrostingComparatorName = $('.select-defrosting-order').val();
             var contest;
+            var site1_val = $('#site1').val();
+            var site2_val = $('#site2').val();
             if (selectedFormat == 'stand') {
-                var json = eval('(' + $('textarea').val() + ')');
+                var json;
+                if (!site2_val || /^\s*$/.test(site2_val)) {
+                   json = eval('(' + site1_val + ')');
+                }
+                else {
+                   var json1 = JSON.parse(site1_val);
+                   var json2 = JSON.parse(site2_val);
+                   json = mergeJSON(json1, json2);
+                }
                 contest = new Contest(json, defrostingComparatorName);
             } else if (selectedFormat == 'ejudge') {
-                var Log = new EJudgeConvertor($('textarea').val());
-                contest = new Contest(Log.convert(), defrostingComparatorName);
+                var json;
+                if (!site2_val || /^\s*$/.test(site2_val)) {
+                   var log = new EJudgeConvertor(site1_val);
+                   json = log.convert();
+                   console.log(json.runs);
+                }
+                else {
+                   var log1 = new EJudgeConvertor(site1_val);
+                   var log2 = new EJudgeConvertor(site2_val);
+                   var json1 = log1.convert();
+                   var json2 = log2.convert();
+                   json = mergeJSON(json1, json2);
+                }
+                contest = new Contest(json, defrostingComparatorName);
             }
 
             var standings = contest.createFrozenStandings();
